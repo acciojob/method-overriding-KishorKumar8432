@@ -16,12 +16,12 @@ public class Main {
     }
   public static void main(String[] args){
       B obj1 = new B();
-      String ans1 = obj1.meth();
+      //String ans1 = obj1.meth();
 
       B obj2 = new B();
-      String ans2 = obj2.meth();
-      System.out.println(ans1);
-      System.out.println(ans2);
+      //String ans2 = obj2.meth();
+      System.out.println(obj1.meth());
+      System.out.println(obj2.meth());
 
   }
 
